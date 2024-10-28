@@ -4,14 +4,17 @@ import userData from './components/Profile/userData.json';
 import './assets/index.css';
 import friends from './components/FriendsList/friends.json';
 import FriendsList from './components/FriendsList/FriendsList';
+import TransactionHistory from './components/TransactionHistory/TransationHistory';
+import transactions from './components/TransactionHistory/transactions.json';
+
 
 
 const App = () => {
   return (
     <div>
-      <h1>HELLO</h1>
       <Profile user={userData}/>
       <FriendsList friends={friends} />
+      <TransactionHistory items={transactions}/>
     </div>
   )
 }
