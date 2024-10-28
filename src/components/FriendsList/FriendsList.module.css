@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  border:  1px solid black;
+  border-radius: 8px;
+  width: 80px;
+  height: 150px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.online {
+  color: green;
+  font-size: 16px;
+  font-weight: 400;    
+}
+
+.offline {
+  color: red;
+  font-size: 16px;
+  font-weight: 400;  
+}
