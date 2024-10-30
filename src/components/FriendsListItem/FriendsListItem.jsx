@@ -2,8 +2,8 @@ import s from './FriendsListItem.module.css';
 import clsx from "clsx";
 
 
-const FriendsListItem = ({friends}) => {
-    return (friends.map(friend => (
+const FriendsListItem = ({ friend }) => {
+    return (
         <li className={s.item} key={friend.id}>
             <div>
                 <img src={friend.avatar} alt="Avatar" width="48" />
@@ -14,7 +14,7 @@ const FriendsListItem = ({friends}) => {
                 })}>{friend.isOnline ? 'Online' : 'Offline'}</p>
             </div>
         </li>
-    )));
+    );
 };
 
 export default FriendsListItem
