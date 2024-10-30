@@ -2,8 +2,8 @@ import 'modern-normalize';
 import Profile from './components/Profile/Profile';
 import userData from './components/Profile/userData.json';
 import './assets/index.css';
-import friends from './components/FriendsList/friends.json';
 import FriendsList from './components/FriendsList/FriendsList';
+import friends from './components/FriendsList/friends.json';
 import TransactionHistory from './components/TransactionHistory/TransationHistory';
 import transactions from './components/TransactionHistory/transactions.json';
 
